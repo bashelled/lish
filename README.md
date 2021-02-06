@@ -26,5 +26,5 @@ lish is a zsh theme that adds the most of what you need. It includes:
 * current time
 * root indicator (% if user, # if root)
 
-Install it by clonig the repository to ```$ZSH_CUSTOM/themes/lish```.
+Install it by cloning the repository to ```$ZSH_CUSTOM/themes/lish```.
   
