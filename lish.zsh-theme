@@ -19,5 +19,5 @@ function work_in_progress() {
   fi
 }
 
-PROMPT='$fg[white]%}%#%f %{$fg[green]%}%n@%m%f %{$fg[cyan]%} %~%f %(?.%{$fg[green]%}Y%f.%{$fg[red]%}X%f), %t, $(git_prompt_info) $(git_prompt_status)%f $(work_in_progress)
+PROMPT='$fg[white]%}%#%f %{$fg[green]%}%n@%m%f %{$fg[cyan]%} %~%f %(?.%{$fg[green]%}Y%f.%{$fg[red]%}X%f) [%t] $(git_prompt_info) $(git_prompt_status)%f $(work_in_progress)
 > '
